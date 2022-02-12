@@ -3,7 +3,7 @@
         ProgressBar1.Increment(1)
         If ProgressBar1.Value = 100 Then
             Timer1.Stop()
-            wav-vatsim23.Show()
+            wavlogin.Show()
             Me.Hide()
         End If
         Label1.Text = ProgressBar1.Value & (" %")
